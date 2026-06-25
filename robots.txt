@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+
+Sitemap: https://one-true-mission.github.io/rgc-excavation/sitemap.xml

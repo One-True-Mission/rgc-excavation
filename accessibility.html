@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Accessibility | R&amp;G C. Excavation LLC</title>
+  <meta name="description" content="R&G C. Excavation LLC is committed to keeping our website usable and accessible to everyone. Here is how, and how to reach us with feedback.">
+  <link rel="canonical" href="https://one-true-mission.github.io/rgc-excavation/accessibility.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="accessibility">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="R&G C. Excavation LLC home">
+        <img src="assets/logo.png" alt="R&G C. Excavation LLC logo" onerror="this.style.display='none'">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="services.html" data-nav="services">Services</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+      </ul>
+      <a href="book.html" class="nav-cta">Contact</a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="nav-backdrop"></div>
+  <aside class="mobile-menu" aria-label="Mobile navigation">
+    <a href="index.html" data-nav="home">Home</a>
+    <a href="services.html" data-nav="services">Services</a>
+    <a href="about.html" data-nav="about">About</a>
+    <a href="book.html" data-nav="book">Get a Quote</a>
+    <a href="book.html" class="btn">Contact Us</a>
+  </aside>
+
+  <header class="page-hero page-hero--short">
+    <div class="inner">
+      <h1>Accessibility</h1>
+      <p>Last updated June 25, 2026</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container container--prose">
+      <div class="prose">
+        <p>R&amp;G C. Excavation LLC wants everyone to be able to use our website and reach us easily, including people who use assistive technology.</p>
+
+        <h2>What We Do</h2>
+        <p>We aim to follow the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA as a guide. In building this site we have worked to:</p>
+        <ul>
+          <li>Use clear, readable text with strong color contrast</li>
+          <li>Provide descriptive text for meaningful images</li>
+          <li>Support keyboard navigation and visible focus</li>
+          <li>Use proper headings and labels so screen readers can follow the page</li>
+          <li>Respect reduced-motion settings for animations</li>
+        </ul>
+
+        <h2>Ongoing Effort</h2>
+        <p>Accessibility is an ongoing effort, and parts of the site may not yet be perfect. We continue to make improvements over time.</p>
+
+        <h2>Need Help or Have Feedback?</h2>
+        <p>If you run into any barrier on this site, or you would prefer to handle your request by phone, we are glad to help directly. Call R&amp;G C. Excavation LLC at <a href="tel:+12108529653">(210) 852-9653</a> and we will assist you and work to fix the issue.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-bottom footer-bottom--solo">
+      <div>&copy; 2026 R&amp;G C. Excavation LLC. All rights reserved. &middot;
+        <a href="privacy.html">Privacy</a> &middot;
+        <a href="terms.html">Terms</a> &middot;
+        <a href="accessibility.html">Accessibility</a> &middot;
+        Built by <a href="https://otm-designs.com" target="_blank" rel="noopener">OTM Web Design</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:+12108529653" class="call-bar">Call Now &middot; (210) 852-9653</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
